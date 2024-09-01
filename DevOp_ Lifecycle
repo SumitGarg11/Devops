@@ -1,0 +1,87 @@
+DevOps Lifecycle
+7 Cs of Devops 
+
+Continuous Development
+Continuous Integration
+Continuous Testing
+Continuous Deployment/Continuous Delivery
+Continuous Monitoring
+Continuous Feedback
+Continuous Operations
+
+
+
+### **1. Continuous Development**
+
+**Keywords:** Incremental Changes, Version Control, Agile Development
+
+ Continuous Development involves making incremental changes to the codebase through regular updates.
+Developers commit code changes frequently and use **version control systems** (like Git) to manage these changes.
+
+**Real-Life Example:** At **Facebook**, developers continuously work on new features and improvements.
+For instance, when adding a new **reaction emoji**, developers make small, iterative updates and regularly commit their changes to a **version control system**.
+This ensures that the latest code is always available and up-to-date.
+
+### **2. Continuous Integration (CI)**
+
+**Keywords:** Automated Builds, Code Integration, Integration Testing, Build Server
+
+**Description:** Continuous Integration ensures that code changes are automatically integrated into the shared repository multiple times a day. 
+Automated **builds** and **integration tests** are run to verify that new code doesn’t break existing functionality.
+
+**Real-Life Example:** Facebook uses CI tools to automatically build and test code changes as soon as they are committed. 
+For example, when developers add a new feature, the system automatically runs **unit tests** and **integration tests** 
+to ensure the new code works with the existing application and doesn’t introduce new issues.
+
+### **3. Continuous Testing**
+
+**Keywords:** Automated Testing, Test Suites, Test Automation, Quality Assurance
+
+**Description:** Continuous Testing involves running automated tests at various stages of the development process to ensure the quality of the software.
+This includes running **unit tests**, **integration tests**, and **end-to-end tests**.
+
+**Real-Life Example:** In Facebook’s development pipeline, continuous testing is crucial. As new features are developed, automated test suites are run to check for bugs and ensure that the feature works as intended. For example, automated tests would validate the functionality of a new emoji feature before it’s integrated into the main application.
+
+### **4. Continuous Deployment/Continuous Delivery (CD)**
+
+**Keywords:** Automated Deployment, Release Management, Rollout, Production Environment
+
+**Description:** Continuous Deployment (CD) and Continuous Delivery are practices that automate the release of new software updates. Continuous Deployment automatically deploys every change that passes tests to production, while Continuous Delivery ensures that changes can be deployed to production at any time.
+
+**Real-Life Example:** Facebook’s **Continuous Delivery** process allows for regular updates to the platform. When a new feature, like an updated **news feed algorithm**, is ready, it is automatically deployed to production if it passes all the necessary tests. This ensures that new features and fixes are delivered to users quickly and reliably.
+
+### **5. Continuous Monitoring**
+
+**Keywords:** Real-Time Monitoring, Metrics, Alerts, Performance Tracking
+
+**Description:** Continuous Monitoring involves tracking the application’s performance and behavior in real-time to identify and address issues as they occur. This includes monitoring metrics, setting up alerts, and analyzing logs.
+
+**Real-Life Example:** Facebook uses **real-time monitoring** tools to keep track of how well the new emojis feature performs. They monitor metrics such as **response times** and **user interactions** to ensure that the feature is functioning correctly and meeting performance expectations.
+
+### **6. Continuous Feedback**
+
+**Keywords:** User Feedback, Performance Metrics, Improvement, Iteration
+
+**Description:** Continuous Feedback involves collecting and analyzing feedback from users and stakeholders to inform future development and improvements. This feedback is used to make iterative changes to the software.
+
+**Real-Life Example:** After deploying the new emoji feature, Facebook gathers feedback from users to understand their experiences and preferences. This feedback helps the development team to make **improvements** and adjustments, ensuring that the feature aligns with user expectations.
+
+### **7. Continuous Operations**
+
+**Keywords:** Reliability, Scalability, Incident Management, Maintenance
+
+**Description:** Continuous Operations ensures that the application remains reliable and scalable while managing incidents and performing ongoing maintenance. It involves proactive monitoring and response to operational issues.
+
+**Real-Life Example:** Facebook’s **Continuous Operations** practices include ensuring the stability and scalability of the platform as new features are released. For example, if an issue arises with the new emojis feature, the operations team quickly addresses the problem to minimize downtime and maintain a seamless user experience.
+
+### **Summary of DevOps Practices**
+
+- **Continuous Development:** Incremental code changes and version control. (Example: Regular updates to Facebook’s features)
+- **Continuous Integration (CI):** Automated integration and testing of code changes. (Example: Automated builds and tests for new features)
+- **Continuous Testing:** Automated testing to ensure software quality. (Example: Automated tests for new emojis)
+- **Continuous Deployment/Delivery (CD):** Automated release of updates to production. (Example: Regular deployment of new features)
+- **Continuous Monitoring:** Real-time tracking of application performance. (Example: Monitoring the performance of new features)
+- **Continuous Feedback:** Gathering and using feedback for improvements. (Example: User feedback on new features)
+- **Continuous Operations:** Ensuring reliability and managing incidents. (Example: Maintaining platform stability)
+
+DevOps practices aim to streamline the software development lifecycle, enhance collaboration, and ensure high-quality, reliable software delivery.
