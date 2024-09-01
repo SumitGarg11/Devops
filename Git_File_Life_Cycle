@@ -1,0 +1,42 @@
+Lifecycle Stages of Files in Git
+Untracked
+
+Description: Files that have been newly added to the project directory but are not yet under Git's version control.
+Function: These files are ignored by Git until explicitly added to the tracking system.
+Example: You create a new file example.txt in your project directory.
+Unstaged
+
+Description: Files that are being tracked by Git but have been modified since the last commit. 
+Changes are made but not yet prepared for the next commit.
+Function: You need to review and stage these changes before committing them.
+Example: You edit example.txt but haven’t yet run git add.
+Staged
+
+Description: Files that have been added to the staging area (index) and are ready to be included in the next commit.
+Function: Staging allows you to prepare a snapshot of the project before committing.
+Example: You use git add example.txt to stage the changes made to example.txt.
+Committed
+
+Description: Files that have been committed to the local repository. A commit creates a snapshot of the staged changes.
+Function: Commits are saved in the Git history and include a unique identifier and a commit message.
+Example: You run git commit -m "Update example.txt" to commit the staged changes.
+Pushed
+
+Description: Committed changes that are uploaded to a remote repository.
+Function: Pushes synchronize your local repository with a remote repository, making your changes accessible to others.
+Example: You use git push origin main to push your local commits to the remote main branch.
+Pulled
+
+Description: Changes from a remote repository that have been fetched and merged into your local repository.
+Function: Pulling updates your local branch with changes made by others.
+Example: You run git pull origin main to fetch and merge updates from the remote main branch.
+Merged
+
+Description: Combining changes from different branches into a single branch.
+Function: Merging integrates changes from one branch into another, combining the work of different contributors.
+Example: After working on a feature branch, you use git merge feature-branch to merge it into the main branch.
+Deleted
+
+Description: Files that have been removed from the working directory and staged for deletion, or deleted from the repository.
+Function: Deleting files removes them from the project or marks them for removal in the next commit.
+Example: You use git rm obsolete_file.txt to stage the removal of obsolete_file.txt.
